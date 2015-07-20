@@ -1,0 +1,9 @@
+extends layout
+
+block javascript
+  script(src='/public/javascripts/bundle.js')
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div#el
