@@ -1,9 +1,13 @@
 extends layout
 
 block javascript
+  script(src='http://webapi.amap.com/maps?v=1.3&key=5a84ab452e0b027753de5a2112094d81')
   script(src='/public/javascripts/bundle.js')
+  script(src='/public/javascripts/findcity.js')
 
 block content
   h1= title
   p Welcome to #{title}
   div#el
+
+  div#mapcontainer

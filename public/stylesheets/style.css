@@ -12,3 +12,8 @@ a {
   stroke: #000;
   shape-rendering: crispEdges;
 }
+
+#mapcontainer {
+  width: 400px;
+  height: 400px;
+}
